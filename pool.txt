@@ -1,0 +1,21 @@
+Mod	Cover	Song Name	Difficulty	Star Rating	Length	BPM	CS	HP	AR	OD	Beatmap ID
+NM1	=IMAGE("https://assets.ppy.sh/beatmaps/613083/covers/cover.jpg?1650651613")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1353404", "*namirin - Koi no Hime Hime Pettanko")	Curi's Extra	5.5	3:56	178	3.5	6	9	8.4	1353404
+NM2	=IMAGE("https://assets.ppy.sh/beatmaps/79149/covers/cover.jpg?1622062279")	=HYPERLINK("https://osu.ppy.sh/beatmaps/221677", "DM Ashura - Classical Insanity")	Presto	5.4	2:01	175	4	7	9	7	221677
+NM3	=IMAGE("https://assets.ppy.sh/beatmaps/509341/covers/cover.jpg?1650645718")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1156288", "REOL - YoiYoi Kokon")	Chaoz's Extra	5.2	4:21	150	4.2	6	9.3	8	1156288
+NM4	=IMAGE("https://assets.ppy.sh/beatmaps/712171/covers/cover.jpg?1650658286")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1505568", "Camellia feat. Nanahira - Seashore on the moon")	Moonlight	5.0	4:01	128	4.2	5	9	8.5	1505568
+NM5	=IMAGE("https://assets.ppy.sh/beatmaps/1257525/covers/cover.jpg?1640026210")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3036753", "Laur - Nostalgic Blood of the Strife")	VINXIS' EXHAUST	5.4	1:54	240	4	5	9	8	3036753
+NM6	=IMAGE("https://assets.ppy.sh/beatmaps/1777892/covers/cover.jpg?1683711954")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3740463", "Polyphia - Playing God")	NeKro's Insane	5.0	3:02	137	4.5	5	9	7	3740463
+NM7	=IMAGE("https://assets.ppy.sh/beatmaps/1841169/covers/cover.jpg?1689255248")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3784874", "System Of A Down - Vicinity Of Obscenity")	Aranel's Insane	4.9	2:40	114	4	6	9	8	3784874
+HD1	=IMAGE("https://assets.ppy.sh/beatmaps/1774229/covers/cover.jpg?1657811197")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3632783", "Citrus and Ocean Colour - Sugar Coaster Girl")	bakery's Insane	5.2	1:58	195	4	5	9	8	3632783
+HD2	=IMAGE("https://assets.ppy.sh/beatmaps/1238190/covers/cover.jpg?1650704291")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2619929", "Amane - BOOZEHOUND")	Down's Insane	4.6	2:35	165	5	5	8	7	2619929
+HD3	=IMAGE("https://assets.ppy.sh/beatmaps/1915703/covers/cover.jpg?1676890150")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3952260", "Shakira - Ojos Asi")	Alocado	4.7	3:48	127	4.5	5.5	8.9	8	3952260
+HR1	=IMAGE("https://assets.ppy.sh/beatmaps/1920496/covers/cover.jpg?1678527088")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3963740", "Skrillex, PinkPantheress & Trippie Redd - Way Back")	Insane	5.3	1:52	175	5.2	7.0	10	10	3963740
+HR2	=IMAGE("https://assets.ppy.sh/beatmaps/1880072/covers/cover.jpg?1678397220")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3870932", "Kikuo - Yousei no Kiri")	Insane	5.3	2:07	160	6.5	8.4	9.8	9.8	3870932
+HR3	=IMAGE("https://assets.ppy.sh/beatmaps/1496687/covers/cover.jpg?1637228084")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3068035", "Tokyo Incidents - Periodo Azul")	Insane	4.9	3:42	250	5.5	8.4	10	8.4	3068035
+DT1	=IMAGE("https://assets.ppy.sh/beatmaps/730660/covers/cover.jpg?1622133289")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1543389", "Duca - Dreamer")	Hard	5.5	3:14	249.0	4	5	9.5	9.1	1543389
+DT2	=IMAGE("https://assets.ppy.sh/beatmaps/1757985/covers/cover.jpg?1656382893")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3621487", "yu_tokiwa.djw - rumrum triplets")	Hard	5.3	1:22	288.0	3.8	4	9.7	8.4	3621487
+DT3	=IMAGE("https://assets.ppy.sh/beatmaps/18923/covers/cover.jpg?1650606233")	=HYPERLINK("https://osu.ppy.sh/beatmaps/77711", "Niko - Night of Fire")	Ruc's Hard	5.1	1:32	236.6	3	5	8.3	8.4	77711
+DT4	=IMAGE("https://assets.ppy.sh/beatmaps/1918331/covers/cover.jpg?1677763214")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3989152", "Black Eyed Peas - DOUBLE D'Z (feat. J. Rey Soul)")	frozz's Preposterous Hard	5.3	2:12	157.5	3.5	4	9.7	9.1	3989152
+TB1	=IMAGE("https://assets.ppy.sh/beatmaps/1695872/covers/cover.jpg?1690758843")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3616425", "BABYMETAL - Arkadia")	Collab Expert	5.3	5:04	200	4	4	9.2	8.8	3616425
+TB2	=IMAGE("https://assets.ppy.sh/beatmaps/494225/covers/cover.jpg?1631509689")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1052353", "Teminite - Beastmode")	GONE WILD	5.4	5:13	174	4.2	6.5	9.2	8.5	1052353
+TB3	=IMAGE("https://assets.ppy.sh/beatmaps/475886/covers/cover.jpg?1650640750")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1109306", "Numakura Manami, Seto Asami, Fuchigami Mai - Justability")	yf & Skystar's Duet Insane	5.4	7:39	180	4	6	9	8	1109306
