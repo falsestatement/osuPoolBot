@@ -75,10 +75,13 @@ def parseMods(mods):
 def generate_pool(urls):
     modCounter = {}
     pool = list(filter(None, (line.rstrip() for line in urls)))
+    pool_arr = [["Mod", "Cover", "Song Name", "Difficulty", "Star Rating",
+                 "Length", "BPM", "CS", "HP", "AR", "OD", "Beatmap ID"]]
     with open("pool.txt", "w+") as output:
         output.write(
             "Mod\tCover\tSong Name\tDifficulty\tStar Rating\tLength\tBPM\tCS\tHP\tAR\tOD\tBeatmap ID\n")
-        for beatmap in pool:
+        for i, beatmap in enumerate(pool):
+            pool_arr.append([])
             beatmapId = re.findall(r'\d+', beatmap)[-1]
             mod = beatmap[:2].upper()
             if modCounter.get(mod) == None:
@@ -105,3 +108,18 @@ def generate_pool(urls):
                          str(info['ar']) + t + str(info['od']) + t
                          + beatmapId
                          + '\n')
+
+            pool_arr[i+1].append(fMod)
+            pool_arr[i+1].append(fBanner)
+            pool_arr[i+1].append(fTitle)
+            pool_arr[i+1].append(info['diff_name'])
+            pool_arr[i+1].append(info['star_rating'])
+            pool_arr[i+1].append(info['length'])
+            pool_arr[i+1].append(info['bpm'])
+            pool_arr[i+1].append(info['cs'])
+            pool_arr[i+1].append(info['hp'])
+            pool_arr[i+1].append(info['ar'])
+            pool_arr[i+1].append(info['od'])
+            pool_arr[i+1].append(beatmapId)
+
+    return pool_arr

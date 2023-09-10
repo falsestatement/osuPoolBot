@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from os import environ
 import json
 import beatmap
+import sheet
 
 load_dotenv()
 
@@ -27,11 +28,17 @@ def run_discord_bot():
     @bot.event
     async def on_message(message):
         if bot.user.mentioned_in(message):
-            async with message.channel.typing():
-                reference = await message.channel.fetch_message(message.reference.message_id)
-                await message.channel.send("Generating pool...")
-                beatmap.generate_pool(reference.content.split("\n"))
-                await message.channel.send(file=discord.File("pool.txt"))
+            try:
+                async with message.channel.typing():
+                    reference = await message.channel.fetch_message(message.reference.message_id)
+                    await message.channel.send("Generating pool...")
+                    pool = beatmap.generate_pool(reference.content.split("\n"))
+                    sheet.generate_pool_sheet(pool)
+                    await message.channel.send(file=discord.File("pool.txt"))
+                    await message.channel.send(f"Pool Generated: {environ['SHEET_URL']}")
+            except Exception as e:
+                print(e)
+                await message.channel.send(e)
 
     @bot.tree.command(name="mapinfo")
     @app_commands.describe(map_url="osu! beatmap URL", mods="Mods you want to apply to this map")
